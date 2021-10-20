@@ -1,0 +1,36 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "An PI REST using express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidelcastillo64/nodeJS-data.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "node.js",
+    "mySQL"
+  ],
+  "author": "ian kevin castillo galvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidelcastillo64/nodeJS-data.git/issues"
+  },
+  "homepage": "https://github.com/fidelcastillo64/nodeJS-data-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
